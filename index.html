@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>login</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-12/css/all.css" integrity="sha256-qQHUQX+gGGYfpC7Zdni08sr+h0ymXr0avmIASucY4FM=" crossorigin="anonymous" />
+        <style>
+            body
+            {
+                padding: 0;
+                margin: 0;
+                background-color: lightgray;
+                font-family: tahoma, arial, sans-serif;
+            }
+            
+            section
+            {
+                height: 520px;
+                width: 450px;
+                background-color: white;
+                float: left;
+                position: relative;
+                top: 70px;
+                left: 250px;
+                box-shadow: 10px 10px 20px gray;
+            }
+            
+            /* login start */
+            
+            .login
+            {
+                font-size: 1.2em;
+                box-sizing: border-box;
+                padding: 35px;
+                 
+            }
+            .login h2
+            {
+                color: darkslategrey;
+                letter-spacing: 0.05em;
+                margin-bottom: 0;
+            }
+            .login p
+            {
+                color: gray;
+                font-size: 0.8em;
+                line-height: 1.4em;
+            }
+            .login p span
+            {
+                color: blue;
+            }
+            .login input
+            {
+                display: block;
+                border: 0;
+                border-bottom: 2px solid lightgray;
+                padding: 12px;
+                outline: none;
+                width: 80%;
+                margin-bottom: 16px;
+            }
+            .login i
+            {
+                color: lightgray;
+                transform: translate(307px, -51px);
+            }
+            .login .checkbox
+            {
+                height: 53px;
+            }
+            .checkbox input
+            {
+                width: 1.2em;
+                height: 1.2em;
+            }
+            .checkbox p
+            {
+                transform: translate(208px, -49px);
+                display: inline-block;
+            }
+            .login button
+            {
+                background-color: blue;
+                color: white;
+                padding: 13px 35px;
+                border-radius: 20px;
+                border: 0;
+                outline: none;
+                font-weight: bold;
+                box-shadow: -8px 5px 7px lightblue;
+            }
+            .login ul
+            {
+                list-style: none;
+            }
+            .login ul li
+            {
+                display: inline-block;
+                transform: translate(-190px, 28px);
+            }
+            .login ul li i
+            {
+                color: white;
+                padding: 4px 18px;
+                border-radius: 20px;
+            }
+            
+            /* login end */
+            
+            /* background start */
+            
+            .background
+            {
+                background-image: url("apple-job-keyboard-19043.jpg");
+                background-size: cover;
+            }
+            .background .color-opacity
+            {
+                background: rgba(237, 100, 86, 0.6);
+                height: 100%;
+            }
+            .background i
+            {
+                color: white;
+                font-size: 2.2em;
+                transform: translate(414px, 7px);
+            }
+            .background h2
+            {
+                text-align: center;
+                color: white;
+                position: relative;
+                top: 60px;
+                font-weight: 100;
+                font-size: 3em;
+            }
+            .background p
+            {
+                text-align: center;
+                color: white;
+                position: relative;
+                top: 60px;
+                line-height: 1.6em;
+                font-size: 1.09em;
+            }
+        </style>
+    </head>
+    <body>
+
+            <!-- login start -->
+
+            <section class="login">
+                <h2>Login</h2>
+                <p>Don't have an account?<span>Create your account</span>, it taks<br> less than a minute</p>
+                <input type="text"placeholder="Username">
+                <i class="fas fa-user"></i>
+                <input type="password"placeholder="Password">
+                <i class="fas fa-lock"></i>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <p>Forget Password?</p>
+                </div>
+                <button>LOGIN</button>
+                <p style="transform: translateY(20px);">Or Login with</p>
+                <ul>
+                    <li><i class="fab fa-facebook-f" style="background-color: #4267B2"></i></li>
+                    <li><i class="fab fa-twitter" style="background-color: #2AA9E0"></i></li>
+                    <li><i class="fab fa-google-plus-g" style="background-color: #D54B3D"></i></li>
+                </ul>
+            </section>
+
+            <!-- login end -->
+
+            <!-- background start -->
+
+            <section class="background">
+                <div class="color-opacity">
+                    <i class="fas fa-times"></i>
+                    <h2>Welcome</h2>
+                    <p>
+                         We love the Web and the work we do.<br>We work closely with our 
+                                    clients to<br> deliver the best possible solutions<br> for their needs
+                    </p>
+                </div>
+            </section>
+        
+            <!-- background end -->
+        
+    </body>
+</html>
